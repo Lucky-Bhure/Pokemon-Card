@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem 0rem;
+  text-align: center;
+}
+
+.container {
+  padding: 0rem 5rem;
+}
+
+.heading {
+  color: rgb(246, 200, 14);
+  font-size: 3rem;
+}
+
+input {
+  width: 10rem;
+  padding: 0.5rem 4rem;
+  font-size: medium;
+  border: none;
+  border-bottom: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #ff0000;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.card-container {
+  width: inherit;
+  height: inherit;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  padding: 2rem 0rem;
+  margin: 1rem;
+  width: 250px;
+  height: 320px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card:hover {
+  box-shadow: rgb(246, 200, 14) 0px 5px 15px;
+}
+
+.img-container {
+  height: 40%;
+  width: 100%;
+  border: 1px soild red;
+}
+
+.img-container > img {
+  height: 85%;
+}
+
+
+.type {
+  background-color: green;
+  color: white;
+  border-radius: 2rem;
+  width: fit-content;
+  padding: 0.1rem 2rem;
+  margin-top: 1rem 0rem;
+}
+
+.info-main-container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-main-container > p {
+  margin: 2px 0px;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-size: small;
+  padding: 0px 1rem;
+}
+
+span {
+  font-weight: bold;
+}
