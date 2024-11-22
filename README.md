@@ -1,8 +1,3 @@
-# React + Vite
+# Pokemon-Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A Pokémon Card Static Website is a fast, simple webpage showcasing Pokémon cards with a gallery layout and key details like name, type, and abilities. It may include search and filter options for easy browsing by Pokémon name.
