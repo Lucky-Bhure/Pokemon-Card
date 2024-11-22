@@ -31,7 +31,7 @@ Follow these steps to run the application locally:
 
 3. **Start the development server:**
    ```bash
-   npm start
+   npm run dev
    
 The application will be available at http://localhost:5173
 
@@ -40,12 +40,6 @@ The application will be available at http://localhost:5173
 On loading the app, it fetches and displays a list of 225 Pokémon.
 Use the search bar at the top to filter Pokémon by name.
 Click on a Pokémon card to view its details, such as stats, abilities, and more.
-
-## Deployment
-
-The app can be deployed on any static hosting platform such as Netlify, Vercel, or GitHub Pages. To build the production version, use:
-```bash
-npm start
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
